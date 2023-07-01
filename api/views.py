@@ -11,7 +11,7 @@ from .serializers import NotesSerializer
 
 @api_view(['GET'])
 def get_notes(request):
-    notes = Note.objects.all()
+    notes = Note.objects.all().order_by('-updated_at')
     serializer = NotesSerializer(notes, many=True)
     return Response(serializer.data)
 

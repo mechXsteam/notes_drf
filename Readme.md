@@ -40,7 +40,7 @@ framework.
 - Added `"corsheaders.middleware.CorsMiddleware",` in the MIDDLEWARE list in the notes_backend/settings.py file.
 - Configured `CORS_ALLOW_ALL_ORIGINS: True` allowing websites will all different domains to access my API.
 
-4. Adding documentation to our API
+4. #### Adding documentation to our API
 
 - Installed dependencies using command `pip install pyyaml uritemplate`. [ref...](https://www.django-rest-framework.org/api-guide/schemas/#install-dependencies)
 - Added ```REST_FRAMEWORK = {'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'}``` in the

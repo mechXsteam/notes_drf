@@ -82,4 +82,3 @@ framework.
       access of
       our api to other websites. <br>
       [find the initial steps here...](https://pypi.org/project/django-cors-headers/)
-    - 5ZCD9TKiQ8Nrk19c
